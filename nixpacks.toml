@@ -5,4 +5,4 @@ nixPkgs = ["nodejs_20", "npm-9_x"]
 cmds = ["npm run build"]
 
 [start]
-cmd = "caddy run --config Caddyfile --adapter caddyfile"
+cmd = "npm start"
