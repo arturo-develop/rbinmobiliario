@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "start": "caddy run --config Caddyfile --adapter caddyfile",
     "lint": "eslint .",
     "preview": "vite preview"
   },
